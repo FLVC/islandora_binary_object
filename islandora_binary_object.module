@@ -24,8 +24,8 @@ function islandora_binary_object_menu() {
     'page callback' => 'drupal_get_form',
     'page arguments' => array(
       'islandora_binary_object_delete_association_form',
-      4,
       5,
+      6,
     ),
     'file' => 'includes/admin.inc',
   );
